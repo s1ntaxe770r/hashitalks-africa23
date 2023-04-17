@@ -19,7 +19,7 @@ image: ./images/chaos.jpg
 transition: slide-up
 ---
 
-# The Struggles of Manual Infrastructure Provisioning
+##  The Era of Inconsistency: Pre-Configuration Management 
 
 - Little to no documentation
 
@@ -43,17 +43,66 @@ class: text-center
 
 ---
 transition: slide-left
+class: text-center
+layout: image
+image: ./images/solution.jpg
 ---
 
-# The solution ? 
+# 
 
-<img src="https://file.coffee/u/VfEXz-W8bAuj5YdsHOL1S.jpg" alt="Terraform" width="200" height="200">
+
+---
+transition: slide-left
+---
+
+# Elevator Pitch: Terraform
+
+- Infrastructure as code tool that allows you to define and provision infrastructure in a declarative way
+
+- Provides a common language for teams to communicate about infrastructure
+
+- Allows you to manage infrastructure in a consistent way
+
+- Allows you to version control your infrastructure
+
+
 
 
 
 ---
 transition: slide-up
+layout: two-cols 
 ---
+
+## Elevator Pitch: Packer
+
+- Tool that allows you to create machine images for multiple platforms from a single source configuration
+
+- Allows you to build machine images consistently across multiple platforms
+
+::right::
+
+```json 
+{
+  "builders": [{
+    "type": "amazon-ebs",
+    "region": "us-west-2",
+    "instance_type": "t2.micro",
+    "source_ami": "ami-0c55b159cbfafe1f0",
+    "ssh_username": "ubuntu",
+    "ami_name": "my-ubuntu-20.04-{{timestamp}}"
+  }],
+  "provisioners": [{
+    "type": "shell",
+    "script": "path/to/provisioning-script.sh"
+  }]
+}
+
+```
+
+---
+---
+
 
 # Navigation
 
