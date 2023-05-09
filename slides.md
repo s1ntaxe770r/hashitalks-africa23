@@ -126,7 +126,7 @@ layout: image
 image: ./images/well-yes.jpg  
 ---
 
-# 
+##
 
 
 ---
@@ -144,20 +144,35 @@ transition: slide-down
 
 - **Document** everything you can't automate
 
---
+---
 transition: slide-down
 class: text-center
---
+layout: cover
+---
 
-## Demo time !! 🙏🏽
+## Demo time !! 
 
 ---
 class: text-center
 layout: cover
 ---
 
+## Thank you ! 
 
-## Thank you ! 🙏🏽
+
+---
+transition: slide-left
+---
+
+## Links 
+
+- @ 0xgreat 
+- @ s1ntaxe770r
+
+code available at at https://github.com/umegbewe/
+
+
+
 
 
 
