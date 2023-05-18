@@ -9,9 +9,22 @@ Building Reliable Environments with Packer and Terraform
 
 ---
 transition: slide-left
+---
+
+# $whoarewe (whoami)
+
+- Jubril Oyetunji, Independent Software Engineer
+
+- Great Umegbewe, SRE @ Gala Games
+
+
+---
+transition: slide-left
 layout: image
 image: ./images/chaos.jpg
 ---
+
+<!-- include speaker profiles -->
 
 # In the beginning... There was chaos
 
@@ -169,7 +182,8 @@ transition: slide-left
 - @ 0xgreat 
 - @ s1ntaxe770r
 
-code available at at https://github.com/umegbewe/
+code available at at https://github.com/umegbewe/hashitalks-2023-demo/
+slides: https://github.com/s1ntaxe770r/hashitalks-africa23/
 
 
 
