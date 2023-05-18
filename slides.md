@@ -179,10 +179,13 @@ transition: slide-left
 
 ## Links 
 
-- @ 0xgreat 
-- @ s1ntaxe770r
+- @ 0xgreat ( great@linux.com)
+- @ s1ntaxe770r ( hello@jubril.xyz )
+
+
 
 code available at at https://github.com/umegbewe/hashitalks-2023-demo/
+
 slides: https://github.com/s1ntaxe770r/hashitalks-africa23/
 
 
