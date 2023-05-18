@@ -15,7 +15,7 @@ transition: slide-left
 
 - Jubril Oyetunji, Independent Software Engineer
 
-- Great Umegbewe, SRE @ Gala Games
+- Great Umegbewe, Infrastructure Engineer @ Gala Games
 
 
 ---
@@ -32,7 +32,7 @@ image: ./images/chaos.jpg
 transition: slide-up
 ---
 
-##  The Era of Inconsistency: Pre-Configuration Management 
+##  The Era of Inconsistency: Pre-Configuration Management
 
 - Little to no documentation
 
@@ -61,7 +61,7 @@ layout: image
 image: ./images/solution.jpg
 ---
 
-# 
+#
 
 
 ---
@@ -80,13 +80,13 @@ layout: two-cols
 - Allows you to version control your infrastructure
 
 ::right::
-  
+
   ```hcl
   resource "aws_instance" "example" {
     ami           = "ami-0c55b159cbfafe1f0"
     instance_type = "t2.micro"
   }
-  ``` 
+  ```
 
 
 
@@ -94,7 +94,7 @@ layout: two-cols
 
 ---
 transition: slide-up
-layout: two-cols 
+layout: two-cols
 ---
 
 ## Elevator Pitch: Packer
@@ -105,7 +105,7 @@ layout: two-cols
 
 ::right::
 
-```json 
+```json
 {
   "builders": [{
     "type": "amazon-ebs",
@@ -124,19 +124,19 @@ layout: two-cols
 ```
 
 ---
-transition: slide-right 
+transition: slide-right
 layout: cover
-class: text-center 
+class: text-center
 ---
 
-##  Terraform + Packer  = ✨ ? 
+##  Terraform + Packer  = ✨ ?
 
 
 
 ---
 transition: slide-right
 layout: image
-image: ./images/well-yes.jpg  
+image: ./images/well-yes.jpg
 ---
 
 ##
@@ -163,21 +163,21 @@ class: text-center
 layout: cover
 ---
 
-## Demo time !! 
+## Demo time !!
 
 ---
 class: text-center
 layout: cover
 ---
 
-## Thank you ! 
+## Thank you !
 
 
 ---
 transition: slide-left
 ---
 
-## Links 
+## Links
 
 - @ 0xgreat ( great@linux.com)
 - @ s1ntaxe770r ( hello@jubril.xyz )
